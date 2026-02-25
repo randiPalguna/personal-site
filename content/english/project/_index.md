@@ -1,7 +1,5 @@
 ---
-title: "Contact"
+title: "Project Posts"
 meta_title: ""
 description: "this is meta description"
-layout: "contact"
-draft: false
 ---
