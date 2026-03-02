@@ -1,0 +1,17 @@
+############# Indonesian navigation ##############
+
+# main menu
+[[main]]
+name = "Beranda"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+[[main]]
+name = "Proyek"
+url = "/project"
+weight = 3
