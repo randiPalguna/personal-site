@@ -62,7 +62,7 @@
                 </ul>
               </div>
             {{ end }}
-            <div class="lg:col-6 flex items-center lg:justify-end">
+            <div class="lg:col-6 flex items-center lg:justify-start">
               <h5>{{ T "share" | default "Share" }} :</h5>
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
