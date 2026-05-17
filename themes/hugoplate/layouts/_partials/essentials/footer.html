@@ -39,9 +39,9 @@
                 target="_blank"
                 aria-label="{{ .name }}"
                 rel="nofollow noopener"
-                href="{{ .link | safeURL }}">
-                <i class="{{ .icon }}"></i>
-              </a>
+                href="{{ .link | safeURL }}"
+                >{{- with .svg -}}{{ . | safeHTML }}{{- else -}}<i class="{{ .icon }}"></i>{{- end -}}</a
+              >
             </li>
           {{ end }}
         </ul>
