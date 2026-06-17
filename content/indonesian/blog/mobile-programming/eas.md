@@ -21,6 +21,8 @@ draft: false
 
 </div>
 
+Aplikasi WeatherApp adalah aplikasi cuaca berbasis Android yang dikembangkan menggunakan Kotlin dan Jetpack Compose dengan arsitektur MVVM, dirancang untuk memberikan informasi cuaca secara real-time kepada pengguna secara cepat dan akurat. Aplikasi ini menyediakan fitur utama berupa dashboard cuaca yang menampilkan suhu, kelembaban, dan kecepatan angin, pengaturan lokasi default, pencarian dan penyimpanan kota favorit, serta pengelolaan multi-kota melalui integrasi Retrofit untuk pengambilan data dari WeatherAPI.com dan Room Database untuk penyimpanan data lokal secara persisten.
+
 <br>
 
 # 🖼️ Screenshots & Infographics
@@ -33,6 +35,9 @@ draft: false
 <div align="center">
 {{< image src="/images/blog/mobile-programming/eas/Overview.png" caption="" alt="alter-text" height="700" width="600" position="center" command="fit" option="q100" class="img-fluid" title="image title" webp="false" >}}
 </div>
+
+# 📑 PPT
+https://drive.google.com/file/d/1pQVCk3Zyk6mZYhKklAcCm1_g-2B_X2I1/view?usp=sharing
 
 # 📱 APK File
 https://drive.google.com/file/d/1Axy_ef5j9GZ6yWnaw_eezJ9whWaFohez/view?usp=sharing
